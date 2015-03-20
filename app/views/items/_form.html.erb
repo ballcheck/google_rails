@@ -1,0 +1,5 @@
+<%= form_tag( items_path ) do %>
+  <%= label_tag "n", "Google ranking" %>
+  <%= select_tag( "n" , options_for_select( (1..8) ) ) %>
+  <%= submit_tag( "Create item" ) %>
+<% end %>

@@ -35,4 +35,7 @@ gem 'jquery-rails'
 # gem 'capistrano'
 
 # To use debugger
-# gem 'debugger'
+gem 'debugger'
+
+gem "google-search", '~> 1.0.3'
+gem "mocha", "~> 1.1.0"
